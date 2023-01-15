@@ -1,0 +1,202 @@
+2023-01-15 11:03:19 - Starting DefecttrackingApiApplication using Java 1.8.0_202 on DESKTOP-CDVHG1G with PID 10000 (C:\Users\user\Documents\defecttracking-api\build\classes\java\main started by user in C:\Users\user\Documents\defecttracking-api)
+2023-01-15 11:03:19 - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-15 11:03:19 - The following 1 profile is active: "SIT"
+2023-01-15 11:03:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-15 11:03:33 - Finished Spring Data repository scanning in 1413 ms. Found 3 JPA repository interfaces.
+2023-01-15 11:03:45 - Tomcat initialized with port(s): 8081 (http)
+2023-01-15 11:03:45 - Starting service [Tomcat]
+2023-01-15 11:03:45 - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-15 11:03:48 - Initializing Spring embedded WebApplicationContext
+2023-01-15 11:03:48 - Root WebApplicationContext: initialization completed in 27366 ms
+2023-01-15 11:03:52 - HikariPool-1 - Starting...
+2023-01-15 11:03:57 - HikariPool-1 - Start completed.
+2023-01-15 11:03:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-15 11:04:00 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-15 11:04:02 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-15 11:04:04 - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2023-01-15 11:04:14 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-15 11:04:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-15 11:04:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-15 11:04:42 - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-15 11:04:43 - Started DefecttrackingApiApplication in 90.587 seconds (JVM running for 95.298)
+2023-01-15 11:04:43 - Application has been Started
+2023-01-15 11:08:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-15 11:08:59 - Initializing Servlet 'dispatcherServlet'
+2023-01-15 11:08:59 - Completed initialization in 149 ms
+2023-01-15 11:09:00 - Inside the ticketController getTicket Method
+2023-01-15 11:09:00 - Inside the ticket release findAll method
+2023-01-15 11:09:02 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 11:09:02 - Exception while calling getTicket
+2023-01-15 11:16:10 - Starting DefecttrackingApiApplication using Java 1.8.0_202 on DESKTOP-CDVHG1G with PID 7604 (C:\Users\user\Documents\defecttracking-api\build\classes\java\main started by user in C:\Users\user\Documents\defecttracking-api)
+2023-01-15 11:16:10 - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-15 11:16:10 - The following 1 profile is active: "SIT"
+2023-01-15 11:16:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-15 11:16:22 - Finished Spring Data repository scanning in 1364 ms. Found 3 JPA repository interfaces.
+2023-01-15 11:16:30 - Tomcat initialized with port(s): 8081 (http)
+2023-01-15 11:16:30 - Starting service [Tomcat]
+2023-01-15 11:16:30 - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-15 11:16:32 - Initializing Spring embedded WebApplicationContext
+2023-01-15 11:16:32 - Root WebApplicationContext: initialization completed in 20961 ms
+2023-01-15 11:16:38 - HikariPool-1 - Starting...
+2023-01-15 11:16:43 - HikariPool-1 - Start completed.
+2023-01-15 11:16:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-15 11:16:45 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-15 11:16:51 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-15 11:16:53 - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2023-01-15 11:17:03 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-15 11:17:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-15 11:17:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-15 11:17:40 - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-15 11:17:40 - Started DefecttrackingApiApplication in 96.225 seconds (JVM running for 100.903)
+2023-01-15 11:17:40 - Application has been Started
+2023-01-15 11:18:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-15 11:18:25 - Initializing Servlet 'dispatcherServlet'
+2023-01-15 11:18:25 - Completed initialization in 49 ms
+2023-01-15 11:18:26 - Inside the ticketController getTicket Method
+2023-01-15 11:18:26 - Inside the ticket release findAll method
+2023-01-15 11:18:28 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 11:18:28 - Exception while calling getTicket
+2023-01-15 11:18:40 - Inside the ticketController getTicket Method
+2023-01-15 11:18:40 - Inside the ticket release findAll method
+2023-01-15 11:18:40 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 11:18:40 - Exception while calling getTicket
+2023-01-15 12:26:53 - Starting DefecttrackingApiApplication using Java 1.8.0_202 on DESKTOP-CDVHG1G with PID 484 (C:\Users\user\Documents\defecttracking-api\build\classes\java\main started by user in C:\Users\user\Documents\defecttracking-api)
+2023-01-15 12:26:53 - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-15 12:26:53 - The following 1 profile is active: "SIT"
+2023-01-15 12:27:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-15 12:27:03 - Finished Spring Data repository scanning in 741 ms. Found 3 JPA repository interfaces.
+2023-01-15 12:27:11 - Tomcat initialized with port(s): 8081 (http)
+2023-01-15 12:27:11 - Starting service [Tomcat]
+2023-01-15 12:27:11 - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-15 12:27:14 - Initializing Spring embedded WebApplicationContext
+2023-01-15 12:27:14 - Root WebApplicationContext: initialization completed in 20524 ms
+2023-01-15 12:27:16 - HikariPool-1 - Starting...
+2023-01-15 12:27:20 - HikariPool-1 - Start completed.
+2023-01-15 12:27:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-15 12:27:22 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-15 12:27:23 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-15 12:27:25 - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2023-01-15 12:27:33 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-15 12:27:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-15 12:27:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-15 12:27:57 - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-15 12:27:57 - Started DefecttrackingApiApplication in 69.509 seconds (JVM running for 73.234)
+2023-01-15 12:27:57 - Application has been Started
+2023-01-15 12:28:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-15 12:28:08 - Initializing Servlet 'dispatcherServlet'
+2023-01-15 12:28:08 - Completed initialization in 18 ms
+2023-01-15 12:28:09 - Inside the ticketController getTicket Method
+2023-01-15 12:28:09 - Inside the ticket release findAll method
+2023-01-15 12:28:10 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 12:28:10 - Exception while calling getTicket
+java.lang.NullPointerException: null
+	at com.defecttracking.service.TicketServiceImpl.lambda$findAll$0(TicketServiceImpl.java:29)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:747)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:721)
+	at java.util.stream.AbstractTask.compute(AbstractTask.java:316)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateParallel(ReduceOps.java:714)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.defecttracking.service.TicketServiceImpl.findAll(TicketServiceImpl.java:40)
+	at com.defecttracking.controller.TicketController.getTicket(TicketController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-01-15 12:33:05 - Starting DefecttrackingApiApplication using Java 1.8.0_202 on DESKTOP-CDVHG1G with PID 4712 (C:\Users\user\Documents\defecttracking-api\build\classes\java\main started by user in C:\Users\user\Documents\defecttracking-api)
+2023-01-15 12:33:06 - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-15 12:33:06 - The following 1 profile is active: "SIT"
+2023-01-15 12:33:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-15 12:33:28 - Finished Spring Data repository scanning in 1133 ms. Found 3 JPA repository interfaces.
+2023-01-15 12:33:46 - Tomcat initialized with port(s): 8081 (http)
+2023-01-15 12:33:46 - Starting service [Tomcat]
+2023-01-15 12:33:46 - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-15 12:33:48 - Initializing Spring embedded WebApplicationContext
+2023-01-15 12:33:48 - Root WebApplicationContext: initialization completed in 40553 ms
+2023-01-15 12:33:50 - HikariPool-1 - Starting...
+2023-01-15 12:33:54 - HikariPool-1 - Start completed.
+2023-01-15 12:33:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-15 12:33:55 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-15 12:33:57 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-15 12:33:58 - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2023-01-15 12:34:11 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-15 12:34:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-15 12:34:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-15 12:34:36 - Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-15 12:34:36 - Started DefecttrackingApiApplication in 106.327 seconds (JVM running for 116.524)
+2023-01-15 12:34:36 - Application has been Started
+2023-01-15 12:35:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-15 12:35:04 - Initializing Servlet 'dispatcherServlet'
+2023-01-15 12:35:04 - Completed initialization in 10 ms
+2023-01-15 12:35:04 - Inside the ticketController getTicket Method
+2023-01-15 12:35:04 - Inside the ticket release findAll method
+2023-01-15 12:35:06 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 12:35:06 - Inside ApplicationServiceImpl.findAll
+2023-01-15 12:35:07 - Find all application response: [Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh)]
+2023-01-15 12:35:07 - Inside the release release.findAll
+2023-01-15 12:35:07 - Find all release response: [Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00)]
+2023-01-15 12:35:07 - ticket are  not found
+2023-01-15 13:34:43 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m46s189ms119µs400ns).
+2023-01-15 13:37:05 - Init duration for springdoc-openapi is: 4100 ms
+2023-01-15 13:37:38 - Inside the ticketController getTicket Method
+2023-01-15 13:37:38 - Inside the ticket release findAll method
+2023-01-15 13:37:38 - find all ticket response: [Ticket(ticketId=91180, description=WebServer Error, application=Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh), release=Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00), status=Failed, title=WebError)]
+2023-01-15 13:37:38 - Inside ApplicationServiceImpl.findAll
+2023-01-15 13:37:38 - Find all application response: [Application(applicationId=1, description=Spring Boot Project, applicationName=SpringBoot, owner=Ritesh)]
+2023-01-15 13:37:38 - Inside the release release.findAll
+2023-01-15 13:37:38 - Find all release response: [Release(releaseId=1, description=Manual Release, release_date=2023-01-13 00:00:00)]
+2023-01-15 13:37:38 - ticket are  not found
